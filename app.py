@@ -87,7 +87,7 @@ if st.sidebar.button("Predict"):
     prediction = model.predict(user_input)
 
     # Display prediction result
-    if prediction[0][0] > 0.1:
+    if prediction[0][0] > 0.5:
         st.sidebar.success("Prediction: You may have a kidney stone.")
     else:
         st.sidebar.success("Prediction: You may not have a kidney stone.")
