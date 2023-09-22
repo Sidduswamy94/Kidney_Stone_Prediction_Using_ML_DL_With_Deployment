@@ -10,3 +10,30 @@ Kidney stones are a common health problem that affects millions of people worldw
 - Using Convolutional Neural Networks (CNN) and Bi-Long Short Time Memory (Bi-LSTM) models for deep learning based prediction
 - Evaluating the models based on the performace metrics such as accuracy, precision value, recall value, f1-score
 - Deploying the model on Streamlit Cloud
+
+## Project Structure
+<b> This project has four major parts :
+
+1. model.py - This contains code fot our Machine Learning model to predict employee salaries absed on trainign data in 'hiring.csv' file.
+2. app.py - This contains Flask APIs that receives employee details through GUI or API calls, computes the precited value based on our model and returns it.
+3. Dataset - This contains the dataset for this project.
+4. my_model.h5 - This folder contains a trained machine learning model, specifically a Keras model.
+
+## Running the project
+1. Ensure that you are in the project home directory. Create the machine learning and deep learning model by running in jupyter notebook.
+
+   This would create a serialized Keras model into a file my_model.h5
+
+2. Run app.py using below command to start Streamlit cloud app
+
+   streamlit run app.py
+
+   By default, streamlit will run on port 8501.
+
+3. Navigate to URL http://localhost:8501
+   
+   We should be able to view the homepage on the HTML page! 
+
+   Enter valid numerical values in all 6 input boxes and hit Predict.
+
+   If everything goes well, we should be able to see the kidney stone prediction on the HTML page! 
