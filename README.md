@@ -37,4 +37,5 @@ Kidney stones are a common health problem that affects millions of people worldw
 
    Enter valid numerical values in all 6 input boxes and hit Predict.
 
-   If everything goes well, we should be able to see the kidney stone prediction on the HTML page! 
+   If everything goes well, we should be able to see the kidney stone prediction on the HTML page! ![image-2](https://github.com/Sidduswamy94/Kidney_Stone_Prediction_Using_ML_DL_With_Deployment/assets/119415794/41e84a41-41c2-40a0-99d7-39add63c067d)
+
